@@ -1,0 +1,14 @@
+{
+  "name": "mbwebfirst",
+  "version": "1.0.0",
+  "description": "3d model project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jefferson Haadsma",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.145.0"
+  }
+}
