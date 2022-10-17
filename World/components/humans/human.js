@@ -5,7 +5,7 @@ import { setupModel } from './setupModels.js';
 async function loadHuman() {
 	const loader = new GLTFLoader();
 
-	const humanData = await loader.loadAsync('/assets/models/testman.glb');
+	const humanData = await loader.loadAsync('./testman.glb');
 
 	console.log('human load', humanData);
 
